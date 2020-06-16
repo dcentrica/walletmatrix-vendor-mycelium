@@ -1,0 +1,74 @@
+{
+    "uuid": "67B71901-D5BF-4F15-A623-AD5A5A93CC9B",
+    "version": "1.0",
+    "organisation": {
+        "name": "Mycelium Technologies Ltd",
+        "web": "https://mycelium.com/",
+        "email": "support@mycelium.com",
+        "location": "UK",
+        "established": "2014-01-01"
+    },
+    "wallet": {
+        "name": "MyCelium",
+        "web": "https://wallet.mycelium.com/",
+        "socials": [
+            {
+                "type": "reddit",
+                "slug": "mycelium"
+            },
+            {
+                "type": "twitter",
+                "slug": "MyceliumCom"
+            }
+        ]
+    },
+    "features": {
+        "currencies": [
+            {
+                "type": "crypto",
+                "ticker": "BTC,BCH"
+            },
+            {
+                "type": "fiat",
+                "ticker": "USD"
+            }
+        ],
+        "wallet_types": ["watch-only", "on-chain", "single-address"],
+        "security": ["pin-on-wallet", "scrambled-pin"],
+        "privacy": ["tor"],
+        "languages": [
+            {
+                "iso6392": "EN,ZH,JP,PT,ES,ID,RU,UK,IT,DE,SE,NN,FR,DK,TR"
+            }
+        ],
+        "custodial": "?",
+        "license": ["Apache 2.0", "MS-RL"],
+        "multisig": "?",
+        "testnet": "N",
+        "batchtx": "N",
+        "lightning": "N",
+        "fio": "?",
+        "form_factor": "mobile",
+        "custom_node": "N",
+        "rbf": "Y",
+        "hd": "Y",
+        "sna": "Y",
+        "fee_estimation": "?",
+        "fee_control": "Y",
+        "validation": "spv",
+        "platforms": [
+            {
+                "name": "ios",
+                "github": "https://github.com/mycelium-com/wallet-ios",
+                "download": "https://itunes.apple.com/en/app/mycelium-bitcoin-wallet/id943912290",
+                "language": "Objective-C"
+            },
+            {
+                "name": "android",
+                "github": "https://github.com/mycelium-com/wallet-android",
+                "download": "https://play.google.com/store/apps/details?id=com.mycelium.wallet",
+                "language": "Java"
+            }
+        ]
+    }
+}
