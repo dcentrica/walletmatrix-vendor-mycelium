@@ -1,6 +1,6 @@
 {
     "uuid": "67B71901-D5BF-4F15-A623-AD5A5A93CC9B",
-    "version": "1.0",
+    "version": "2.0",
     "organisation": {
         "name": "Mycelium Technologies Ltd",
         "web": "https://mycelium.com/",
@@ -20,7 +20,8 @@
                 "type": "twitter",
                 "slug": "MyceliumCom"
             }
-        ]
+        ],
+        "version": ""
     },
     "features": {
         "currencies": [
@@ -46,15 +47,19 @@
         "multisig": "?",
         "testnet": "N",
         "batchtx": "N",
-        "lightning": "N",
         "fio": "?",
         "form_factor": "mobile",
         "custom_node": "N",
         "rbf": "Y",
+        "psbt": "?",
+        "reproducible_builds": "?",
         "hd": "Y",
         "sna": "Y",
         "fee_estimation": "?",
         "fee_control": "Y",
+        "hardware": [],
+        "lightning": [],
+        "refill": [],
         "validation": "spv",
         "platforms": [
             {
