@@ -47,7 +47,7 @@
         "multisig": "?",
         "testnet": "N",
         "batchtx": "N",
-        "fio": "?",
+        "fio": "Y",
         "form_factor": "mobile",
         "custom_node": "N",
         "rbf": "Y",
