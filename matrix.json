@@ -31,19 +31,35 @@
                     },
                     {
                         "type": "crypto",
-                        "ticker": "BCH"
+                        "ticker": "BTCV"
+                    },
+                    {
+                        "type": "crypto",
+                        "ticker": "USDT"
                     },
                     {
                         "type": "crypto",
                         "ticker": "ETH"
                     },
                     {
-                        "type": "crypto",
-                        "ticker": "ERC20"
+                        "type": "fiat",
+                        "ticker": "USD"
                     },
                     {
                         "type": "fiat",
-                        "ticker": "USD"
+                        "ticker": "EUR"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "CAD"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "CNY"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "VEF"
                     }
                 ],
                 "wallet_types": [
@@ -113,7 +129,7 @@
                 "fio": "Y",
                 "form_factor": "mobile",
                 "custom_node": "N",
-                "rbf": "Y",
+                "rbf": "N",
                 "psbt": "N",
                 "reproducible_builds": "Y",
                 "hd": "Y",
