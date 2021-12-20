@@ -71,6 +71,7 @@
                     "pin-on-wallet",
                     "scrambled-pin"
                 ],
+                "privacy": [],
                 "languages": [
                     {
                         "iso6392": "EN"
