@@ -20,7 +20,7 @@
     },
     "wallets": [
         {
-            "name": "MyCelium",
+            "name": "Mycelium",
             "web": "https://wallet.mycelium.com/",
             "uuid": "67B71901-D5BF-4F15-A623-AD5A5A93CC9B",
             "features": {
@@ -31,11 +31,35 @@
                     },
                     {
                         "type": "crypto",
-                        "ticker": "BCH"
+                        "ticker": "BTCV"
+                    },
+                    {
+                        "type": "crypto",
+                        "ticker": "USDT"
+                    },
+                    {
+                        "type": "crypto",
+                        "ticker": "ETH"
                     },
                     {
                         "type": "fiat",
                         "ticker": "USD"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "EUR"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "CAD"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "CNY"
+                    },
+                    {
+                        "type": "fiat",
+                        "ticker": "VEF"
                     }
                 ],
                 "wallet_types": [
@@ -46,9 +70,6 @@
                 "security": [
                     "pin-on-wallet",
                     "scrambled-pin"
-                ],
-                "privacy": [
-                    "tor"
                 ],
                 "languages": [
                     {
@@ -97,28 +118,28 @@
                         "iso6392": "TR"
                     }
                 ],
-                "custodial": "?",
+                "custodial": "N",
                 "license": [
                     "Apache 2.0",
                     "MS-RL"
                 ],
-                "multisig": "?",
+                "multisig": "N",
                 "testnet": "N",
                 "batchtx": "N",
                 "fio": "Y",
                 "form_factor": "mobile",
                 "custom_node": "N",
-                "rbf": "Y",
-                "psbt": "?",
-                "reproducible_builds": "?",
+                "rbf": "N",
+                "psbt": "N",
+                "reproducible_builds": "Y",
                 "hd": "Y",
                 "sna": "Y",
-                "fee_estimation": "?",
+                "fee_estimation": "Y",
                 "fee_control": "Y",
                 "hardware": [],
                 "lightning": [],
-                "refill": [],
-                "validation": "spv",
+                "refill": ["credit-card"],
+                "validation": "via-own-servers",
                 "platforms": [
                     {
                         "name": "ios",
@@ -130,11 +151,11 @@
                         "name": "android",
                         "github": "https://github.com/mycelium-com/wallet-android",
                         "download": "https://play.google.com/store/apps/details?id=com.mycelium.wallet",
-                        "language": "Java"
+                        "language": "Kotlin"
                     }
                 ],
-                "coin_control": "?",
-                "tx_labelling": "?"
+                "coin_control": "N",
+                "tx_labelling": "Y"
             }
         }
     ]
